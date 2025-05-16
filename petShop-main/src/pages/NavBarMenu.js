@@ -17,10 +17,10 @@ function NavBarMenu() {
 
           </Navbar.Brand>
           <Nav className="ms-auto">
-            <Nav.Link className='menu'><Link to='/'>Home</Link></Nav.Link>
-            <Nav.Link className='menu'><Link to='/BanhoTosa'>Banho e tosa</Link></Nav.Link>
-            <Nav.Link className='menu'><Link to='/HotelResort'>Hotel resort</Link></Nav.Link>
-            <Nav.Link className='menu'><Link to='/Adestramento'>Adestramento</Link></Nav.Link>
+            <Nav.Link className='menu primeiro'><Link className='a' to='/'>Home</Link></Nav.Link>
+            <Nav.Link className='menu'><Link className='a' to='/BanhoTosa'>Banho e tosa</Link></Nav.Link>
+            <Nav.Link className='menu'><Link className='a' to='/HotelResort'>Hotel resort</Link></Nav.Link>
+            <Nav.Link className='menu'><Link className='a' to='/Adestramento'>Adestramento</Link></Nav.Link>
           </Nav>
         </Container>
       </Navbar>
