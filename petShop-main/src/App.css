@@ -1,3 +1,7 @@
+body{
+  height: 100vh;
+}
+
 .navBar img{
   height: 70px;
 }
