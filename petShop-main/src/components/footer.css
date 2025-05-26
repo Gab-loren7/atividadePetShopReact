@@ -1,0 +1,126 @@
+.interface {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-body {
+    width: 100%;
+    height: auto;
+    background-color: #1b1b1b;
+}
+
+.footer-body h1 {
+    padding-top: 2%;
+
+    font-size: 24px;
+    color: #f1f1f1;
+}
+
+.footer-body .informacoes {
+    display: flex;
+    margin: auto;
+
+    width: 80%;
+    height: auto;
+
+    margin-top: 2%;
+}
+
+.informacoes .informacoes-left,
+.informacoes-right {
+    width: 50%;
+}
+
+.informacoes-left .input-name,
+.input-email,
+.input-mensagem {
+    width: 100%;
+    margin-top: 10px;
+
+    padding: 5px;
+}
+
+input:focus {
+    outline-style: none;
+    box-shadow: none;
+}
+
+.input-mensagem::placeholder {
+    vertical-align: top;
+    position: absolute;
+    top: 5px;
+}
+
+.informacoes-left .input-mensagem {
+    height: 150px;
+}
+
+.informacoes-left .align-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.informacoes-left .align-btn .btnEnviar {
+    cursor: pointer;
+
+    margin-top: 10px;
+
+    width: 300px;
+    height: 40px;
+
+    background-color: #0c0c0c;
+    color: #f1f1f1;
+    font-weight: 600;
+    border: 2px solid transparent;
+}
+
+.informacoes-right {
+    margin-left: 2%;
+    color: #f1f1f1;
+}
+
+.informacoes-right .align-icons {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.informacoes-right i {
+    margin-right: 5%;
+    font-size: 28px;
+}
+
+.informacoes-right h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.social-icons {
+    display: flex;
+    width: 100%;
+}
+
+.social-icons i {
+    font-size: 36px;
+    margin-right: 5%;
+}
+
+.map {
+    margin-top: 3%;
+    width: 100%;
+    height: 300px;
+}
+
+.direitosAutorais {
+    margin-top: -6px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    height: 100px;
+    padding-top: 2%;
+
+    background-color: #d3d3d3;
+    color: #1b1b1b;
+}
