@@ -1,0 +1,30 @@
+body{
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.navBar img{
+  height: 70px;
+}
+
+.menu{
+  padding: 0 20px !important;
+  border-left: 2px solid #666 !important;
+  text-transform: uppercase;
+}
+
+.primeiro{
+  border-left: transparent !important;
+}
+
+.a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  transition: .4s;
+}
+
+.a:hover{
+  font-weight: 500;
+  opacity: 55%;
+}

@@ -1,0 +1,87 @@
+
+.interface {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    justify-content:center ;
+    margin: auto;
+}
+
+.conteudo-1, .conteudo-2{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    margin-top: 5%;
+
+    width: 100%;
+
+    color: #1b1b1b;
+}
+
+.conteudo-1 .img1{
+    width: 40%;
+    height: 40vh;
+    margin-right: 2%;
+}
+
+.text-patcare{
+    margin-top: 5%;
+    padding: 3%;
+
+    background-color: #d3d3d3;
+    color: #1b1b1b;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.text-patcare img{
+    width: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+.conteudo-2{
+    padding-bottom: 5%;
+}
+
+.conteudo-2 .img2{
+    width: 40%;
+}
+
+.conteudo-1 .texto{
+    display: block;
+    text-align: justify;
+}
+
+.conteudo-2 .texto{
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.botao{
+    background-color: #1b1b1b;
+    color: #f1f1f1;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5px 40px;
+}
+
+@media screen and (max-width: 1000px){
+    .conteudo-1,.conteudo-2{
+        display: inline-block;
+        border: 2px solid red;
+        width: 100%;
+    }
+    
+    .img1,.img2{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .conteudo-1 .img1, .conteudo-2 .img2{
+        width: 100%;
+        height: auto;
+    }
+}
