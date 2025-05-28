@@ -71,7 +71,6 @@
 @media screen and (max-width: 1000px){
     .conteudo-1,.conteudo-2{
         display: inline-block;
-        border: 2px solid red;
         width: 100%;
     }
     
