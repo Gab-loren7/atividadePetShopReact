@@ -2,7 +2,7 @@
 
 <div align="center">
   <h1>
-🐶 Trabalho Site Petshop 🐶
+🐶 Projeto Site Petshop 🐶
   </h1>
   <h3>
    Criando um site de petshop implementando React
